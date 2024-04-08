@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão de tempo</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Previsão do tempo em uma cidade</h1>
+        <div class="search_content">
+            <input id="search" type="search" placeholder="Digite o nome da cidade" onkeypress="verificarInput(this, event)">
+            <img width="28px" src="pesquisa.png" alt="">
+        </div>
+        
+        <div class="container_info">
+            <div>
+                <h2 id="cidade">São Paulo, SP</h2>
+            </div>
+            <div class="container_degrees">
+                <img src="icon.png" id="clima_imagem" alt="">
+                <h2 id="temperatura">31<sup>ºc</sup></h2>
+            </div>
+            <h2 id="clima">Nublado</h2>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
